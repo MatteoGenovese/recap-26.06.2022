@@ -91,6 +91,6 @@ azzera.addEventListener('click', function() {
     S = 0;
     C = 0;
 
-    timerCounter = `${ore} : ${min} : ${sec} : ${cent}`;
+    timerCounter = `0${H} : 0${M} : 0${S} : 0${C}`;
     stampa();
 });
